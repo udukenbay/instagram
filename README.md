@@ -10,6 +10,8 @@ $ npx tailwindcss init
 $ npm install -D @tailwindcss/forms
 4-hero icons:
 $ npm install @heroicons/react
+5-minifaker
+$ npm i minifaker
 
 
 
