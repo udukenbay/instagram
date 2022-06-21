@@ -5,38 +5,39 @@ import { HomeIcon } from '@heroicons/react/solid';
 
 export default function Header() {
   return (
-
-        <div className='flex items-center justify-between max-w-6xl mx-4 xl:mx-auto'>
-            {/* Left */}
-            <div className='cursor-pointer  h-24 w-24 relative hidden lg:inline-grid'>
-                <Image
-                    src="http://www.jennexplores.com/wp-content/uploads/2015/09/Instagram_logo_black.png"
-                    layout='fill'
-                    className='object-contain'
-                    alt=''
-                />
-            </div>
-            <div className='cursor-pointer  h-24 w-24 relative lg:hidden'>
-                <Image
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/640px-Instagram-Icon.png"
-                    layout='fill'
-                    className='object-contain'
-                    alt=''
-                />
-            </div>
-            {/* Middle */}
-            <div className='relative mt-1'>
-                <div className='absolute top-2 left-2'>
-                    <SearchIcon className='h-5 text-gray-500'/>
+        <div className='shadow-sm border-b sticky top-0 bg-white z-30'>
+            <div className='flex items-center justify-between max-w-6xl mx-4 xl:mx-auto'>
+                {/* Left */}
+                <div className='cursor-pointer  h-24 w-24 relative hidden lg:inline-grid'>
+                    <Image
+                        src="http://www.jennexplores.com/wp-content/uploads/2015/09/Instagram_logo_black.png"
+                        layout='fill'
+                        className='object-contain'
+                        alt=''
+                    />
                 </div>
-                <input type="text" placeholder='Search' className='bg-gray-50 pl-10 border-gray-500 text-sm focus:ring-black focus:border-black rounded-md' />
-            </div>
-    
-            {/* Right */}
-            <div className='flex space-x-4 items-center'>
-                <HomeIcon className='hidden md:inline-flex h-6 cursor-pointer hover:scale-125 transition-transform duration-200 ease-out'/>
-                <PlusCircleIcon className='h-6 cursor-pointer hover:scale-125 transition-transform duration-200 ease-out'/>
-                <img src='https://yt3.ggpht.com/ytc/AKedOLTu3R-kFSG843RnmFSq_Pt5vBhc6l4SSJWalkWKaA=s900-c-k-c0x00ffffff-no-rj' alt='user-image' className='h-10 rounded-full cursot-pointer'/>
+                <div className='cursor-pointer  h-24 w-24 relative lg:hidden'>
+                    <Image
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/640px-Instagram-Icon.png"
+                        layout='fill'
+                        className='object-contain'
+                        alt=''
+                    />
+                </div>
+                {/* Middle */}
+                <div className='relative mt-1'>
+                    <div className='absolute top-2 left-2'>
+                        <SearchIcon className='h-5 text-gray-500'/>
+                    </div>
+                    <input type="text" placeholder='Search' className='bg-gray-50 pl-10 border-gray-500 text-sm focus:ring-black focus:border-black rounded-md' />
+                </div>
+        
+                {/* Right */}
+                <div className='flex space-x-4 items-center'>
+                    <HomeIcon className='hidden md:inline-flex h-6 cursor-pointer hover:scale-125 transition-transform duration-200 ease-out'/>
+                    <PlusCircleIcon className='h-6 cursor-pointer hover:scale-125 transition-transform duration-200 ease-out'/>
+                    <img src='https://yt3.ggpht.com/ytc/AKedOLTu3R-kFSG843RnmFSq_Pt5vBhc6l4SSJWalkWKaA=s900-c-k-c0x00ffffff-no-rj' alt='user-image' className='h-10 rounded-full cursot-pointer'/>
+                </div>
             </div>
         </div>
 
