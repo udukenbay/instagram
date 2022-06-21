@@ -1,7 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+What install:
+1-next.js: 
+$ npx create-next-app@latest
+2-tailwind css: 
+$ npm install -D tailwindcss
+$ npx tailwindcss init
+
+3-tailwind css forms: 
+$ npm install -D @tailwindcss/forms
+4-hero icons:
+$ npm install @heroicons/react
+
+
 
 Learning from:
 https://youtu.be/D31UVFJGLK0
+
+
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
