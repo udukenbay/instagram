@@ -16,7 +16,10 @@ https://pravatar.cc/
 6-tailwind scrollbar
 $ npm install --save-dev tailwind-scrollbar
 https://unsplash.com/
-
+7-next auth
+$ npm install next-auth
+8-firebase
+$ npm install firebase
 
 
 Learning from:
