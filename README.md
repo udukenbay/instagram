@@ -12,7 +12,9 @@ $ npm install -D @tailwindcss/forms
 $ npm install @heroicons/react
 5-minifaker
 $ npm i minifaker
-
+https://pravatar.cc/
+6-tailwind scrollbar
+$ npm install --save-dev tailwind-scrollbar
 
 
 Learning from:
