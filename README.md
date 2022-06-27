@@ -20,6 +20,9 @@ https://unsplash.com/
 $ npm install next-auth
 8-firebase
 $ npm install firebase
+9-recoil
+$ npm install recoil
+
 
 
 Learning from:
