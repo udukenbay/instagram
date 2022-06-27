@@ -22,7 +22,8 @@ $ npm install next-auth
 $ npm install firebase
 9-recoil
 $ npm install recoil
-
+10-react modal
+$ npm install --save react-modal
 
 
 Learning from:
