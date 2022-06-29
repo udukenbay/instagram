@@ -24,7 +24,8 @@ $ npm install firebase
 $ npm install recoil
 10-react modal
 $ npm install --save react-modal
-
+11-react moment
+$ npm install --save moment react-moment
 
 Learning from:
 https://youtu.be/D31UVFJGLK0
