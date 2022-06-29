@@ -1,6 +1,8 @@
 import { DotsHorizontalIcon, HeartIcon, ChatIcon, BookmarkIcon, EmojiHappyIcon } from "@heroicons/react/outline";
+import { useSession } from "next-auth/react";
 
 export default function Post({img, userImg, caption, username, id}) {
+    const { data: session } = useSession();
   return <div className="bg-white my-7 border rounded-md">
       {/* Post Header */}
 
@@ -15,22 +17,27 @@ export default function Post({img, userImg, caption, username, id}) {
 
 
       {/* Post Buttons */}
-      <div className="flex justify-between px-4 pt-4">
-          <div className="flex space-x-4">
-              <HeartIcon className="btn"/>
-              <ChatIcon className="btn"/>
-          </div>
-          <BookmarkIcon className="btn"/>
-      </div>
+
+      {session && (
+        <div className="flex justify-between px-4 pt-4">
+            <div className="flex space-x-4">
+                <HeartIcon className="btn"/>
+                <ChatIcon className="btn"/>
+            </div>
+            <BookmarkIcon className="btn"/>
+        </div>
+      )}
 
       {/* Post comments */}
       <p className="p-5 truncate"><span className="font-bold mr-2">{username}</span>{caption}</p>
 
       {/* Post input box */}
-      <form className="flex items-center p-4">
-          <EmojiHappyIcon className="h-7"/>
-          <input className="border-none flex-1 focus:ring-0" type="text" placeholder="Enter your comments..."/>
-          <button className="text-blue-400 font-bold">Post</button>
-      </form>
+      {session && (
+        <form className="flex items-center p-4">
+            <EmojiHappyIcon className="h-7"/>
+            <input className="border-none flex-1 focus:ring-0" type="text" placeholder="Enter your comments..."/>
+            <button className="text-blue-400 font-bold">Post</button>
+        </form>
+      )}
   </div>
 }
