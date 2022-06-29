@@ -26,6 +26,9 @@ $ npm install recoil
 $ npm install --save react-modal
 11-react moment
 $ npm install --save moment react-moment
+12-last from me. For deploy in a github
+$ npm install gh-pages --save-dev
+$ npm run deploy
 
 Learning from:
 https://youtu.be/D31UVFJGLK0
