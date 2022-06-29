@@ -35,6 +35,13 @@ https://youtu.be/D31UVFJGLK0
 https://github.com/sahandghavidel/insta-v4
 
 
+So my database && github location links:
+https://console.cloud.google.com/apis/credentials?project=instagram-cb3d7&supportedpurview=project
+
+https://console.firebase.google.com/project/instagram-cb3d7/firestore/data/~2F
+
+https://github.com/udukenbay/instagram
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
